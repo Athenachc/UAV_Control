@@ -10,7 +10,7 @@ class robust_differentiator_3rd:
                  n1: Union[np.ndarray, list] = np.array([0, 0, 0]),
                  n2: Union[np.ndarray, list] = np.array([0, 0, 0]),
                  n3: Union[np.ndarray, list] = np.array([0, 0, 0]),
-                 use_freq: bool = False,
+                 use_freq: bool = True,
                  omega: Union[np.ndarray, list] = np.array([0, 0, 0]),
                  dim: int = 3,
                  dt: float = 0.001):
