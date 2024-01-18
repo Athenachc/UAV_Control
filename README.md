@@ -10,3 +10,8 @@ Four kinds of observers are tested.
     2. High-order Sliding Mode Observer (HSMO)
     3. Nonlinear Extended State Observer (NESO)
     4. Romberg Observer (RO) 
+
+```
+cd simulation
+python3 quad_att_ctrl.py  // or python3 quad_pos_ctrl.py
+```
